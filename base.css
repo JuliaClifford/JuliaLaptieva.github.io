@@ -71,6 +71,7 @@ span{
 .button1:checked~.slide1>p{
  display: flex;
  flex-direction: column; 
+ margin-right: auto;
 }
 
 .button2:checked~.slide1, 
@@ -86,6 +87,8 @@ span{
 .button2:checked~.slide3>p, .button2:checked~.slide4>p {
     display: flex;
     flex-direction: column; 
+ margin-right: auto;
+
    }
 
 .button3:checked~.slide1, .button3:checked~.slide3, .button3:checked~.slide4, .button3:checked~.slide6, .button3:checked~.slide7, .button3:checked~.slide8, .button3:checked~.slide9{
@@ -95,6 +98,8 @@ span{
 .button3:checked~.slide2>p, .button3:checked~.slide5>p{
     display: flex;
     flex-direction: column; 
+ margin-right: auto;
+
 }
 .button4:checked~.slide1, .button4:checked~.slide2, .button4:checked~.slide3, .button4:checked~.slide4, .button4:checked~.slide5{
     display: none;
@@ -103,6 +108,8 @@ span{
 .button4:checked~.slide7>p, .button4:checked~.slide8>p, .button4:checked~.slide9>p, .button4:checked~.slide6>p{
     display: flex;
     flex-direction: column; 
+ margin-right: auto;
+
 }
 .button5:checked~.slide1, .button5:checked~.slide2, .button5:checked~.slide3, .button5:checked~.slide4, .button5:checked~.slide5, .button5:checked~.slide7, .button5:checked~.slide9{
     display: none;
@@ -111,6 +118,8 @@ span{
 .button5:checked~.slide6>p, .button5:checked~.slide8>p{
     display: flex;
     flex-direction: column; 
+ margin-right: auto;
+
 }
 
 
