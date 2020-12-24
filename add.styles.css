@@ -151,7 +151,6 @@ header{
         grid-template-rows: repeat(3,max-content);
         grid-gap: 5px;
         column-gap: 5px;
-
     }
 
     .boxes{
@@ -180,4 +179,29 @@ header{
         width: 100%;
         margin: 0;
     }
+    .button1:checked~.slide1>div{
+      display: flex;
+      flex-direction: column; 
+     }
+
+    .button2:checked~.slide3>div, .button2:checked~.slide4>div {
+      display: flex;
+      flex-direction: column; 
+     }
+     
+.button3:checked~.slide2>div, .button3:checked~.slide5>div{
+   display: flex;
+   flex-direction: column; 
+}
+
+.button4:checked~.slide7>div, .button4:checked~.slide8>div, .button4:checked~.slide9>div, .button4:checked~.slide6>div{
+   display: flex;
+   flex-direction: column; 
+}
+
+.button5:checked~.slide6>div, .button5:checked~.slide8>div{
+   display: flex;
+   flex-direction: column; 
+}
+
 }
